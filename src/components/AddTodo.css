@@ -1,0 +1,30 @@
+.createTodo {
+    background-color: #FFF8C9;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.inputs {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.addButton {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #D0BFFF;
+}
+
+.addButton:hover{
+    background-color: #BEADFA;
+}
