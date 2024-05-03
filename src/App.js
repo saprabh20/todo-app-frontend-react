@@ -35,7 +35,6 @@ const App = () => {
         }else{
             setSearching(false);
         }
-        console.log(TodosResult, searchTerm);
     }
 
     return (

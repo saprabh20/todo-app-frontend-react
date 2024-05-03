@@ -35,16 +35,6 @@ const Footer = ({ todos, searchTodo }) => {
                 type="text"
                 placeholder="Search Todo"
             />
-            <button
-                style={{
-                    margin: 10,
-                    padding: 10,
-                    borderRadius: 10,
-                }}
-                onClick={() => {}}
-            >
-                Search
-            </button>
         </div>
     );
 };
