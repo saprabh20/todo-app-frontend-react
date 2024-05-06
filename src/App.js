@@ -8,7 +8,7 @@ import Todos from "./components/Todos";
 const App = () => {
     let [todos, setTodos] = useState([]);
     let [foundTodos, setFoundTodos] = useState([]);
-    let [searching, setSearching] = useState(false)
+    let [searching, setSearching] = useState(false);
 
     function deleteTodo(id) {
         const selectedTodo = todos.find((td) => td.id === id);

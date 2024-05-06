@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./Todo.css";
 
-const Todo = ({ todo, deleteTodo }) => {
+const Todo = ({ todo, deleteTodo, executeScroll }) => {
     const [completed, setCompleted] = useState(todo.completed);
+    executeScroll();
     let bc;
     bc = completed ? "#519fff8e" : "#AED2FF";
     return (
